@@ -1,5 +1,8 @@
 import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { FonercedorCreateComponent } from './components/fornecedor/fonercedor-create/fonercedor-create.component';
+import { FornecedorCrudComponent } from './components/fornecedor/fornecedor-crud/fornecedor-crud.component';
+import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
 import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
 import { ProductsCreateComponent } from './components/product/products-create/products-create.component';
 
@@ -18,6 +21,21 @@ const routes: Routes = [{
 },{
   path: "products/update/:id",
   component: ProductUpdateComponent
+},{
+  path: "products/delete/:id",
+  component: ProductDeleteComponent
+},{
+  path: "fornecedor",
+  component: FornecedorCrudComponent
+},{
+  path: "fornecedor/create",
+  component: FonercedorCreateComponent
+},{
+  path: "fornecedor/update/:id",
+  component: ProductUpdateComponent
+},{
+  path: "fornecedor/delete/:id",
+  component: ProductDeleteComponent
 }];
 
 @NgModule({

@@ -14,16 +14,40 @@
       "id": 3,
       "name": "Samsung S20+",
       "price": 5000.89
+    }
+  ],
+  "fornecedor": [
+    {
+      "id": 1,
+      "nome": "Caneta BIC Preta",
+      "endereco": "rua",
+      "numero": "rua",
+      "bairro": "rua",
+      "cep": "rua"
     },
     {
-      "id": 4,
-      "name": "Notebook",
-      "price": 2396.89
+      "id": 2,
+      "name": "Notebook Mac Pro",
+      "endereco": "rua",
+      "numero": "rua",
+      "bairro": "rua",
+      "cep": "rua"
     },
     {
-      "id": 5,
-      "name": "Celular Xiaomi",
-      "price": 3906.89
+      "id": 3,
+      "name": "Samsung S20+",
+      "endereco": "rua",
+      "numero": "rua",
+      "bairro": "rua",
+      "cep": "rua"
+    },
+    {
+      "nome": "",
+      "endereco": "",
+      "numero": 0,
+      "bairro": "",
+      "cep": 0,
+      "id": 4
     }
   ]
 }

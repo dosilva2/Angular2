@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { ProductService } from 'src/app/components/product/product.service';
 
 @Component({
   selector: 'app-product-crud',
